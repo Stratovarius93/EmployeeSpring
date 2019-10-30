@@ -30,12 +30,11 @@ public class EmployeeDto {
 		this.area = employee.getArea();
 	}
 
-	public EmployeeDto(String id, String surname, Boolean active, Area area) {
+	public EmployeeDto(String id, String surname, Boolean active) {
 		super();
 		this.id = id;
 		this.surname = surname;
 		this.active = active;
-		this.area = area;
 	}
 
 	public String getId() {

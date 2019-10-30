@@ -36,13 +36,12 @@ public class Employee {
 		this.entry = new Date();
 	}
 
-	public Employee(String id, String surname, Boolean active, Area area) {
+	public Employee(String id, String surname, Boolean active) {
 		super();
 		this.id = id;
 		this.surname = surname;
 		this.active = active;
 
-		this.area = area;
 	}
 
 	public Employee(String surname) {

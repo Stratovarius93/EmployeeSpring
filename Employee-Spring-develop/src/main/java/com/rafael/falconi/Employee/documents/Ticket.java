@@ -13,10 +13,10 @@ public class Ticket {
 	
 	@DBRef
 	private Employee employee;
-	
+	/*1
 	public Ticket() {
 		// TODO Auto-generated constructor stub
-	}
+	}*/
 	public Ticket(String id, String name, String description, Employee employee) {
 		super();
 		this.id = id;
